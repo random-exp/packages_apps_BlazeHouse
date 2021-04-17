@@ -94,4 +94,9 @@
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Enable advanced restart</string>
     <string name="global_actions_advanced_reboot_summary">Show options for recovery and bootloader in power menu</string>
+    
+    <!-- Statusbar tuner -->
+    <string name="statusbar_icons">Icons</string>
+    <string name="statusbar_tuner_title">Statusbar tuner</string>
+    <string name="statusbar_items_summary">Tune Statusbar items</string>
 </resources>
