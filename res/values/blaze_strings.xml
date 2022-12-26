@@ -51,6 +51,7 @@
     <string name="network_category">Network Options</string>
     <string name="media_category">Media</string>
     <string name="fingerprint_category">Fingerprint</string>
+    <string name="qs_panel_title">QS Panel</string>
 
     <!-- Ignore window secure -->
     <string name="laboratory_ignore_window_secure_title">Ignore window secure flags</string>
@@ -142,4 +143,17 @@
     <string name="volume_key_cursor_control_off">Disabled</string>
     <string name="volume_key_cursor_control_on">Volume Up/Down - Cursor Left/Right</string>
     <string name="volume_key_cursor_control_on_reverse">Volume Up/Down - Cursor Right/Left</string>
+    
+    <!-- Quick settings styles -->
+    <string name="default_string">Default</string>
+    <string name="qs_styles_title">Combined QS Element Styles</string>
+    <string name="qs_outline">Outline</string>
+    <string name="qs_two_tone">Two-Tone Accent</string>
+    <string name="qs_color_pop">Color Pop</string>
+    <string name="qs_shaded">Shaded</string>
+    <string name="qs_cyberpunk">Cyberpunk</string>
+    <string name="qs_neumorph">Neumorph</string>
+    <string name="qs_reflected">Reflected</string>
+    <string name="qs_surround">Surround</string>
+    <string name="qs_thin">ThinLine</string>
 </resources>
