@@ -21,6 +21,8 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.os.Bundle;
 
+import android.os.UserHandle;
+import android.provider.Settings;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
@@ -43,6 +45,14 @@ public class SystemSettings extends SettingsPreferenceFragment implements
         addPreferencesFromResource(R.xml.blaze_house_system);
 
         ContentResolver resolver = getActivity().getContentResolver();
+    }
+    
+    public static void reset(Context mContext) {
+        ContentResolver resolver = mContext.getContentResolver();
+        Settings.Secure.putIntForUser(resolver,
+                Settings.Secure.NAVBAR_INVERSE_LAYOUT, 0, UserHandle.USER_CURRENT);
+        Settings.Secure.putStringForUser(resolver,
+                Settings.Secure.NAVBAR_LAYOUT_VIEWS, "default", UserHandle.USER_CURRENT);
     }
 
     @Override
