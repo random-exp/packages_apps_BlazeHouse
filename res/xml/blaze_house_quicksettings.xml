@@ -47,6 +47,15 @@
     <PreferenceCategory
         android:key="quick_settings_panel"
         android:title="@string/qs_panel_title">
+        
+       <com.blaze.house.preferences.SystemSettingSeekBarPreference
+            android:key="qs_transparency"
+            android:title="@string/qs_transparency_title"
+            android:defaultValue="100"
+            settings:interval="1"
+            settings:units="%"
+            android:max="100"
+            android:min="1" />
             
       <com.blaze.house.preferences.SystemSettingListPreference
             android:key="qs_panel_style"
