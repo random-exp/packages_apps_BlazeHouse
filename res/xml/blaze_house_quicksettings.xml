@@ -32,6 +32,15 @@
             android:title="@string/qs_footer_datausage_title"
             android:summary="@string/qs_footer_datausage_summary"
             android:defaultValue="false" />
+            
+    <com.blaze.house.preferences.SystemSettingSeekBarPreference
+            android:key="qs_transparency"
+            android:title="@string/qs_transparency_title"
+            android:defaultValue="100"
+            settings:interval="1"
+            settings:units="%"
+            android:max="100"
+            android:min="1" />
 
     </PreferenceCategory>
     
@@ -59,7 +68,7 @@
             android:summary="@string/qs_show_auto_brightness_summary"
             android:defaultValue="true" />
 			
-	<com.blaze.house.preferences.SecureSettingSwitchPreference
+	      <com.blaze.house.preferences.SecureSettingSwitchPreference
             android:key="secure_lockscreen_qs_disabled"
             android:title="@string/disable_qs_title"
             android:summary="@string/disable_qs_summary"
