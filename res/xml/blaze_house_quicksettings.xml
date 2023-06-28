@@ -17,5 +17,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:title="@string/quicksettings_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+    
+    <PreferenceCategory
+        android:title="@string/general_category">
+
+	  <com.blaze.house.preferences.SecureSettingSwitchPreference
+            android:key="quick_settings_vibrate"
+            android:title="@string/quick_settings_vibrate_title"
+            android:summary="@string/quick_settings_vibrate_summary"
+            android:defaultValue="false"/>
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
