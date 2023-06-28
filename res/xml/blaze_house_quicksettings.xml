@@ -58,7 +58,7 @@
             android:title="@string/qs_show_auto_brightness_title"
             android:summary="@string/qs_show_auto_brightness_summary"
             android:defaultValue="true" />
-
+			
     </PreferenceCategory>
 
 </PreferenceScreen>
