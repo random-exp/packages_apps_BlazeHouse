@@ -19,6 +19,18 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
     
     <PreferenceCategory
+        android:title="@string/general_category">
+        
+            <com.blaze.house.preferences.SystemSettingSwitchPreference
+                android:key="toast_icon"
+                android:order="24"
+                android:title="@string/toast_icon_title"
+                android:summary="@string/toast_icon_summary"
+                android:defaultValue="true"/>
+
+    </PreferenceCategory>
+    
+    <PreferenceCategory
         android:key="incall_vib_options"
         android:title="@string/incall_vibration_category" >
 
