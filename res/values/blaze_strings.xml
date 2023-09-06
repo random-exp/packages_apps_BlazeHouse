@@ -466,4 +466,7 @@
     <string name="qs_tile_animation_interpolator_overshootInterpolator">Overshoot</string>
     <string name="qs_tile_animation_interpolator_anticipateInterpolator">Anticipate</string>
     <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Anticipate overshoot</string>
+    
+    <!-- QS Header Size -->
+    <string name="large_qs_switch_title">QS Header Size</string>
 </resources>
